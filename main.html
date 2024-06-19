@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>nicrus</title>
+    <!-- Google fonts. -->
+    <link 
+      href="https://fonts.googleapis.com/css?family=Bungee Outline"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela Round"
+      rel="stylesheet"
+    />
+
+    <!-- Use firebase app and database. -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+
+    <!-- The CSS and JS file must be declared after the things above-->
+     <link rel="stylesheet" href="try.css" />
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body onLoad="disableClick()">
+    <section id="enter">
+      <div>
+        <input id="pass" type="number" />
+        <button onclick="confirm()">Verify</button>
+      </div>
+    </section>
+
+    <section id="main" style = "display: none">
+
+      <div class="div_three">
+        <p id="love_lang"></p>
+        <div class="mins_since">
+        <div id="time_since"></div>
+          days since first kiss
+        </div>
+        
+        <div class="movie_box">
+          <input type="text" id="movie_input" placeholder="Enter Movie Name">
+          <p id="movie_title"></p>          
+          <button onclick="shuffle_movie()">Suggest A Movie</button>
+          <button onclick="add_movie()" class="addingmovie">Add a Movie</button>
+
+        </div>
+      </div>
+
+      <div class="div_two " id="fullbox">
+          <div id="textbox">
+            <ul id="mes"></ul>
+          </div>
+          <input type="text" id="text" autofill="no">
+          <button onclick="send()" id="send_text">Click me</button>
+      </div>
+      <div class="div_one " id="love">
+        <div class="divs " id="gip">
+           <img id="gify" src="https://media0.giphy.com/media/8AJWT1Eo2MXKgwFEf7/giphy.gif?cid=661a5feeyyr6wmd08ovluugkr2846wfsaga59vc61pxv6xsm&amp;rid=giphy.gif&amp;ct=g">
+           
+           <div id="date_idea_box">
+             <span id="date_idea"></span>
+             <button onclick="generateidea(dateIdeas)">Generate Date Idea</button>
+             
+           </div>
+         </div>
+     </div>
+
+      
+    </section>
+      
+
+      
+    </section> -->
+  </body>
+</html>
+
+<!-- chat , a reason i love you , a gif , a quote for you, how much I love you on a scale of 1 to 100 today -->

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2rem;
+}
+
+#pass {
+  border: none;
+  border-bottom: 2px solid #B22222;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 50%;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: #B22222;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divs {
+  width: 50%;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 0 5px #ccc;
+  margin: 1rem;
+}
+
+#love {
+  background-color: #F5F5F5;
+}
+
+#gip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gify {
+  width: 80%;
+}
+
+#time_since {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#date_idea {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#fullbox {
+  display: flex;
+  flex-direction: column;
+}
+
+#textbox {
+  height: 50%;
+  overflow: auto;
+}
+
+#mes {
+  list-style: none;
+}
+
+#text {
+  border: none;
+  border-bottom: 2px solid #B22222;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+button {
+  border: none;
+  background-color: #B22222;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
